@@ -1,0 +1,16 @@
+name: Run calculator on dad's PC
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-on-dads-pc:
+    runs-on: self-hosted
+    steps:
+      - name: Pull latest repo
+        uses: actions/checkout@v3
+
+      - name: Run calc
+        run: python calc.py
