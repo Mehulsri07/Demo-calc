@@ -1,8 +1,11 @@
-def calc(a, b, op):
-    if op == "+": return a + b
-    if op == "-": return a - b
-    if op == "*": return a * b
-    if op == "/": return a / b
+print("Calculator running on dad's PC...")
 
-print("Running using DevOps")
-print(calc(5, 7, "+"))
+a = 5
+b = 7
+
+print("a =", a)
+print("b =", b)
+print("a + b =", a + b)
+print("a - b =", a - b)
+print("a * b =", a * b)
+print("a / b =", a / b)
